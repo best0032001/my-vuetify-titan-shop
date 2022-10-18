@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  vue3:
+    build:
+      context: .
+    container_name: vue3
+    ports:
+      - "84:80"
+    restart: always
